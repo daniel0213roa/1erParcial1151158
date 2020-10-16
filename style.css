@@ -8,9 +8,23 @@
       text-align: end;
       background-color: red;
       color: white;
+     
+      
   }
 
-  #card-img-top{
-      width: 100px;
-      height: 100px;
+  #text{
+    color: white;
+  }
+
+  #imagencontenido{
+      width: 400px;
+      height: 300px;
+  }
+
+  #sitefooter{
+      background-color: red;
+     
+  }
+  #card{
+      text-align: center;
   }
