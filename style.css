@@ -1,0 +1,11 @@
+#logo {
+    width: 200px;
+    height: 250px;
+    background: url(img_navsprites.gif) 0 0;
+  } 
+
+  #nav{
+      text-align: end;
+      background-color: red;
+      color: white;
+  }
