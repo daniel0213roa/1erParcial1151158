@@ -1,59 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Primer Parcial</title>
 </head>
+
 <body>
     <header>
-        <img src="img/UFPS_Logo.png" id="logo" alt="logo">
-        <title>arquitecturas web</title>
+        <div><img src="img/UFPS_Logo.png" id="logo" alt="logo"></div>
+        <div>
+            <h1>ARQUITECTURAS WEB</h1>
+        </div>
     </header>
     <nav id="nav">
         <a href="index.html">INICIO</a>
         <a href="html/arquitecturas.html">ARQUITECTURAS</a>
-        <a href="html/tecnologias.html">TeCNOLOGIAS</a>
+        <a href="html/tecnologias.html">TECNOLOGIAS</a>
         <a href="html/frontend.html">FRONTEND</a>
         <a href="html/contactanos.html">CONTACTANOS</a>
     </nav>
 
-    <div></div>
+
 
     <div class="card-group">
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
+
+            <div class="card-body">
+                <h5 class="card-title"><strong>El Modelo cero y el código spaguetti</strong></h5>
+                <img src="img/ArquitecturasWebSpagetti.png" class="card-img-top" alt="ArquitecturasWebSpagetti">
+                <p class="card-text">Soluciones iniciales cliente/servidor en las que tenemos
+                    una página JSP/ASP/PHP que se conecta a una base de
+                    datos y genera un nuevo contenido html. Es código
+                    spaguetti, el que nadie quiere tener que pero que en su
+                    momento se usó mucho. A día de hoy lo puedes
+                    encontrar en más sitios de los que se piensa. Como
+                    ventaja fundamental destaca su sencillez a nivel de
+                    arquitectura y como desventaja su poca flexibilidad y nula
+                    capacidad de reutilización.</p>
+
+            </div>
         </div>
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
+
+            <div class="card-body">
+                <h5 class="card-title"> <strong>El Modelo 1</strong></h5>
+                <img src="img/ArquitecturasWebModelo1-2.png" class="card-img-top" alt="ArquitecturasWebModelo1-2">
+                <p class="card-text">Este fue un salto importante , promueve la modularización
+                    y el uso de componentes a través de la programación
+                    orientada a objeto. Fue desde mi punto de vista un gran
+                    salto. Hay enfoques tipo Rails que se apoyaron más en un
+                    patrón tipo Active Record y otros en Servicios y
+                    Repositorios como Spring. La clave fundamental es
+                    generar componentes en la capa de backend y aumentar la
+                    reutilización de esa parte.</p>
+
+            </div>
         </div>
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
+
+            <div class="card-body">
+                <h5 class="card-title"><strong>El modelo 2 (MVC)</strong></h5>
+                <img src="img/ArquitecturasWebModeloMVC2-1.png" class="card-img-top" alt="ArquitecturasWebModeloMVC2-1">
+                <p class="card-text">Quizás para mucha gente el modelo más importante, se
+                    apuesta por la separación de responsabilidades entre
+                    Vista, Controlador y Modelo. Prácticamente todos los
+                    frameworks web han implementado este enfoque de una
+                    forma u otra. Ejemplos son: Struts en Java , ASP.NET en
+                    Microsoft o Laravel en PHP.</p>
+
+            </div>
         </div>
-      </div>
+    </div>
 
 
-    <footer>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help the
+                        upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or
+                        snippets as the code wants to be simple. We will help programmers build up concepts in different
+                        programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android,
+                        SQL and Algorithm.</p>
+                </div>
 
+                <div class="col-xs-6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+                        <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+                        <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+                        <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+                        <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+                        <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="http://scanfcode.com/about/">About Us</a></li>
+                        <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+                        <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+                        <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+                        <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
+                        <a href="#">Scanfcode</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
